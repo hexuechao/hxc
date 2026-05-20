@@ -5,6 +5,7 @@ vector<vector<int>> ans;
 vector<int> tem;
 int n, cnt = 0;
 
+// 深度优先搜索
 void dfs(int c){
 
     tem.push_back(c);
